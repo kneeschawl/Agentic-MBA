@@ -1,0 +1,44 @@
+# Private Data & Datasets (Prevent uploading proprietary client transaction data)
+*.csv
+!test_market_dataset/*.csv
+*.xlsx
+*.json
+!manifest.json # Keep manifest if needed for web configurations
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*
+secrets.py
+
+# System Files (OS specific)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Celery & Redis Local Artefacts
+celerybeat-schedule
+*.db
+*.sqlite3
+
+# IDE / Code Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
