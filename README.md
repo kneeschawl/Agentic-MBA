@@ -207,4 +207,4 @@ Final completion payload includes:
 
 ## License
 
-This repository includes a `LICENSE` file. Refer to it for usage terms.
+This repository includes a [LICENSE](./LICENSE) file. Refer to it for usage terms.
